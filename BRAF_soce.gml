@@ -1,0 +1,17 @@
+graph [
+directed 1
+node [ id 0 label "0" graphics [ fill	"#A0522D" w 40 h 30 x 155 y 195 type "ellipse" ]]
+node [ id 1 label "1" graphics [ fill	"#000080" w 40 h 30 x 100 y 125 type "ellipse" ]]
+node [ id 2 label "2" graphics [ fill	"#990066" w 40 h 30 x 59 y 191 type "ellipse" ]]
+node [ id 3 label "3" graphics [ fill	"#009999" w 40 h 30 x 132 y 82 type "ellipse" ]]
+node [ id 4 label "4" graphics [ fill	"#FFD700" w 40 h 30 x 88 y 108 type "ellipse" ]]
+node [ id 5 label "5" graphics [ fill	"#00FF7F" w 40 h 30 x 149 y 66 type "ellipse" ]]
+node [ id 6 label "6" graphics [ fill	"#FF3300" w 40 h 30 x 175 y 88 type "ellipse" ]]
+edge [ source 0 target 1  graphics [ fill	"#000000" targetArrow "delta" ]]
+edge [ source 1 target 2  graphics [ fill	"#000000" targetArrow "delta" ]]
+edge [ source 2 target 3  graphics [ fill	"#000000" targetArrow "delta" ]]
+edge [ source 3 target 4  graphics [ fill	"#000000" targetArrow "delta" ]]
+edge [ source 4 target 5  graphics [ fill	"#000000" targetArrow "delta" ]]
+edge [ source 5 target 6  graphics [ fill	"#000000" targetArrow "delta" ]]
+edge [ source 6 target 6  graphics [ fill	"#000000" targetArrow "delta" ]]
+]

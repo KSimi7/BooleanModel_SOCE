@@ -1,0 +1,26 @@
+Ca_er_pumpi = True
+Gen_exp = False
+Ca_channel = True
+Ca_ER = False
+Ca_ext = True
+MEK = True
+Ca_cyt_high = True
+Transl = False
+Transc = False
+BRAF = False
+Ca_er_pumpi = True
+Ca_cyt_high = False
+Transc = True
+Transl = True
+
+BRAF* = not BRAFi
+MEK* = BRAF or Ca_cyt_high
+ERK* = MEK
+Transc* = not ERK
+Transl* = Transc
+Gen_exp* = Transl
+Ca_channel* = ERK or Gen_exp
+Ca_cyt_normal* = Ca_ext and Ca_channel or Ca_ER
+Ca_cyt_high* = Ca_cyt_normal and not Ca_ER
+Ca_ER* = Ca_cyt_normal and Ca_er_pump
+Ca_er_pump* = not Ca_er_pumpi

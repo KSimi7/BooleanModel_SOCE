@@ -1,0 +1,19 @@
+*** transitions from 0 ***
+T=0: 0->1
+T=1: 1->2
+T=2: 2->3
+T=3: 3->4
+T=4: 4->5
+T=5: 5->5
+T=6: 5->5
+T=7: 5->5
+T=8: 5->5
+T=9: 5->5
+*** node values ***
+state	BRAF	BRAFi	Ca_ER	Ca_channel	Ca_cyt_high	Ca_cyt_normal	Ca_er_pump	Ca_er_pumpi	Ca_ext	ERK	Gen_exp	MEK	Transc	Transl
+0	1	1	1	1	0	1	1	1	1	1	0	1	0	0
+1	0	1	1	1	0	1	0	1	1	0	0	0	0	0
+2	0	1	0	0	1	1	0	1	1	0	0	0	1	0
+3	0	1	0	1	1	1	0	1	1	1	0	1	0	1
+4	0	1	0	1	1	1	0	1	1	1	1	1	0	0
+5	0	1	0	1	1	1	0	1	1	1	0	1	0	0
